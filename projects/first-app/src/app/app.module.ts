@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HellolibModule } from 'aks-hellolib';
+import { FirstLibModule } from 'aks-global-lib';
 
 import { AppComponent } from './app.component';
 
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    HellolibModule
+    HellolibModule,
+    FirstLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]
